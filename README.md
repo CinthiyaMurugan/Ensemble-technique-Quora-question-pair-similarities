@@ -17,6 +17,7 @@ Our objective is to determine whether a set of questions contains duplicates or 
 •	Dependent variable: is_duplicate 
 •	No. of non-duplicate data points is 255027 
 •	No. of duplicate data points is 149263 
+# Steps
 1.	Exploratory Data Analysis: I started by performing exploratory data analysis on the "train.csv" data. This involved tasks like counting the amount of unique questions, looking for duplicates, counting the frequency of questions, and more. 
 2.	Feature extraction: Executed feature extraction techniques such as the fuzz ratio, fuzz partial ratio, common word share, etc.
 3.	Word2Vec Features Tokenizer: Apply Word2Vec Features to a dataset of two questions, and then combined each Word2Vec Feature with our Advanced Feature Set and Basic Feature Set. 
